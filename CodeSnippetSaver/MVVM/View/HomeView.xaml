@@ -31,7 +31,7 @@
 
                 <Grid>
                     <StackPanel>
-                        <TextBlock Text="Code Snippet&#x0a; Saver"
+                        <TextBlock Text="Add new snippet"
                                    Foreground="White"
                                    FontSize="28"
                                    Margin="20,10,10,0"/>

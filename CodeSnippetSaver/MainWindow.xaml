@@ -29,7 +29,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Title"
+            <TextBlock Text="Code Snippet Saver"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
                    Foreground="White"
@@ -56,6 +56,9 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
+                
+                
+                
 
             </StackPanel>
 
@@ -71,6 +74,12 @@
                             Grid.Column="1"
                             Margin="10"
                             Content="{Binding CurrentView}"/>
+
+            <Button Content="Test"
+                    Click="okButton_Click"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"></Button>
+
 
 
         </Grid>
