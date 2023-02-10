@@ -25,11 +25,10 @@ namespace CodeSnippetSaver
             InitializeComponent();
         }
 
-        private void okButton_Click(object sender, RoutedEventArgs e) =>
-            DialogResult = true;
-
-        private void cancelButton_Click(object sender, RoutedEventArgs e) =>
-            DialogResult = false;
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
 
     }
 }

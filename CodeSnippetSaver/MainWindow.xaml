@@ -20,7 +20,9 @@
             CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
+                
                 <ColumnDefinition Width="200"/>
+                
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
@@ -35,6 +37,11 @@
                    Foreground="White"
                    FontSize="22"
                    Margin="20,0,0,0"/>
+            <!--<Button Content="Test"
+                    Click="CloseButton_Click"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right"
+                    Margin="5,5,0,0"/>-->
             <StackPanel Grid.Row="1">
 
                 <RadioButton Content="Home"
@@ -70,18 +77,23 @@
                      Grid.Column="1"
                      Style="{StaticResource ModernTextBox}"/>
 
+            <Button Content="Test"
+                    Click="CloseButton_Click"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right"
+                    Margin="5,5,0,0"/>
+
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
                             Margin="10"
                             Content="{Binding CurrentView}"/>
 
-            <Button Content="Test"
-                    Click="okButton_Click"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Right"></Button>
+           
 
 
 
         </Grid>
+        
+        
     </Border>
 </Window>
