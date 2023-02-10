@@ -47,7 +47,7 @@
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}"/>
                 
-                <RadioButton Content="Features"
+                <RadioButton Content="Snippets"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
