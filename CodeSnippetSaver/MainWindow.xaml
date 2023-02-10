@@ -37,11 +37,6 @@
                    Foreground="White"
                    FontSize="22"
                    Margin="20,0,0,0"/>
-            <!--<Button Content="Test"
-                    Click="CloseButton_Click"
-                    VerticalAlignment="Top"
-                    HorizontalAlignment="Right"
-                    Margin="5,5,0,0"/>-->
             <StackPanel Grid.Row="1">
 
                 <RadioButton Content="Home"
@@ -63,9 +58,16 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
-                
-                
-                
+
+                <RadioButton Content="Leave"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Click="CloseButton_Click"/>
+
+
+
 
             </StackPanel>
 
@@ -76,12 +78,9 @@
                      Margin="5"
                      Grid.Column="1"
                      Style="{StaticResource ModernTextBox}"/>
+            
+            
 
-            <Button Content="Test"
-                    Click="CloseButton_Click"
-                    VerticalAlignment="Top"
-                    HorizontalAlignment="Right"
-                    Margin="5,5,0,0"/>
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
