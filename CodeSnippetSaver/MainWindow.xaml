@@ -63,15 +63,14 @@
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"
-                             Click=""/>
+                             Style="{StaticResource MenuButtonTheme}"/>
 
                 <RadioButton Content="Login"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
-                             Click=""/>
+                             Command="{Binding HomeViewCommand}"/>
 
                 <RadioButton Content="Leave"
                              Height="50"
